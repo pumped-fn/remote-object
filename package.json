@@ -1,0 +1,17 @@
+{
+  "name": "remote-object",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@pumped-fn/core-next": "^0.5.47",
+    "devalue": "^5.1.1",
+    "zod": "^4.0.17"
+  }
+}
