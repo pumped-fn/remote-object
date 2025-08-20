@@ -7,10 +7,10 @@
     "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^5.9.2"
   },
   "dependencies": {
-    "@pumped-fn/core-next": "^0.5.47",
+    "@pumped-fn/core-next": "^0.5.49",
     "devalue": "^5.1.1",
     "zod": "^4.0.17"
   }

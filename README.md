@@ -1,15 +1,13 @@
-# remote-object
+# Remote object
 
-To install dependencies:
+A very simple sync engine utilizing some powerful concepts of pumped-fn
 
-```bash
-bun install
-```
+- Reactivity
+- Power of plugin, while very basic, can easily make an object to be remote
+- Reuse the whole dependency map of pumped-fn
 
-To run:
+# Example
 
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.20. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+The example uses websocket as communication, but it is very composable
+- Serializers are provided but not embeded. For example, with devalue, function can be transfered
+- Protocol is all up to carrier, as such, doesn't matter hono, express
